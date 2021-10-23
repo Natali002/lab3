@@ -1,0 +1,61 @@
+.container{
+    max-width: 900px;
+    margin:auto;
+    height: 500px;
+}
+.line{
+    background: #44C793;
+    width: 200px;
+    height: 1px;
+    margin: auto;
+}
+.title{
+    color:rgb(55,55,55);
+    font-size:  39px;
+    line-height: 48px;
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    
+}
+.prize{
+   display: flex;
+   justify-content:space-between;
+   align-items: flex-end;
+    
+}
+.prize__item{
+    box-shadow: 0px 0.750204px 7.50204px rgb(0,0,0,0.1);
+    font-family: 'Work Sans', sans-serif;
+}
+.prize__item:nth-child(2n)img{
+    height: 400;
+}
+.prize__content{
+    text-align: center;
+    height: 95px;
+}
+.prize__item img{
+    height: 171.5px;
+    width: 171.5px;
+
+}
+.prize__name1{
+    font-weight:400;
+    text-align: center;
+    font-size: 85%;
+}
+.prize__name2{
+    font-weight:300;
+    text-align: center;
+    color:#5F9EA0;
+    font-size: 75%;
+}
+.prize__place{
+    font-weight: 400;
+    margin: 0 0 15px;
+}
+.letter{
+
+    font-weight:700;
+}
